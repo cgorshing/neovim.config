@@ -2,7 +2,7 @@ local builtin = require('telescope.builtin')
 
 -- Primeagain does <leader>pf for this one, so remember this and don't get confused on
 -- which one he is using
-vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
+-- vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
 vim.keymap.set('n', '<C-k>', builtin.find_files, { desc = 'Telescope find files' })
 vim.keymap.set('n', '<C-p>', builtin.git_files, {})
 

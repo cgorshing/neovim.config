@@ -1,6 +1,9 @@
 On Windows
 
 $env:PATH = "C:\Users\cgorshing\Downloads\lua-language-server-3.13.5-win32-x64\bin;$Env:PATH"
+
+I _think_ for pyright, I have it in the 3.13 distribution. I don't think I have
+it in a .venv somewhere that I need to turn on (but that would make sense to do)
 $env:PATH = "C:\Users\cgorshing\AppData\Local\Programs\Python\Python313;$env:PATH"
 $env:PATH = "C:\Users\cgorshing\AppData\Local\Programs\Python\Python313\Scripts\;$env:PATH"
 

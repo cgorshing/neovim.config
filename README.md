@@ -17,6 +17,8 @@ used a .venv someplace or just the default asdf-vm Python version  ¯\_(ツ)_/¯
 
 antosha417/nvim-lsp-file-operations - will rename variables (like import statements) when a rename is performed.
 
+,pv brings up netrw
+
 :h rtp - this shows the `after` path
 In netrw:
   % creates a new file

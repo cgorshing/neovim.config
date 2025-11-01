@@ -1,3 +1,6 @@
+-- For a longer lualine config, see:
+-- https://github.com/josean-dev/dev-environment-files/blob/main/.config/nvim/lua/josean/plugins/lualine.lua
+
 return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },

@@ -45,6 +45,13 @@ return {
       },
     },
 
+
+    -- I tried the expert-lsp (on mac) but had problems with just running it (had to accept it under
+    -- Security & Privacy). After that I kept getting AccessDenied until I removed the .burrito directory
+    -- in ~/Library/Application\ Support/.burrito
+    -- Still won't work. Not sure if it is trying to run elixir/mix and the way
+    -- I have asdf setup is not working
+    
     config = function()
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 

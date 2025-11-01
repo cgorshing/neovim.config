@@ -43,3 +43,14 @@ const res: any = await requestToken(C_ID, CSEC);
 
 
 :lua ColorMyPencils()
+
+
+
+:help sign-intro
+The name of the column is `signcolumn`
+:help 'signcolumn'
+For the W and H in the gutter
+W == Warning
+H == Hint
+I == Info
+E == Error

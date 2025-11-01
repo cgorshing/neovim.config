@@ -1,5 +1,13 @@
+-- Make sure to setup `mapleader` and `maplocalleader` before
+-- loading lazy.nvim so that mappings are correct.
+-- This is also a good place to setup other settings (vim.opt)
+vim.g.mapleader = ","
+vim.g.maplocalleader = "\\"
+
+-- https://github.com/ThePrimeagen/init.lua/blob/master/lua/theprimeagen/remap.lua
+
 -- "n" below means normal mode.
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) -- this is what primeagen uses
 
 -- From https://www.youtube.com/watch?v=o7PnaiwPHiY
 vim.keymap.set('n', '<C-l>', '<cmd>bn<CR>', { silent = true, desc = 'Next buffer' })

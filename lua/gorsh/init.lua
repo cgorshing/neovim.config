@@ -1,3 +1,8 @@
 print("hello from the gorsh")
-require("gorsh.remap")
+print("Leader is ,")
+print(",pv")
+
 require("gorsh.set")
+require("gorsh.remap")
+require("gorsh.lazy")
+-- require("gorsh.lualine")

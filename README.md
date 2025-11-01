@@ -14,3 +14,32 @@ For Elixir-ls I cloned the repo and followed the instructions (built/installed w
 
 For pyright -- I can't remember, looks like I used pip, but I don't know if I
 used a .venv someplace or just the default asdf-vm Python version  ¯\_(ツ)_/¯
+
+antosha417/nvim-lsp-file-operations - will rename variables (like import statements) when a rename is performed.
+
+:h rtp - this shows the `after` path
+In netrw:
+  % creates a new file
+  d create a new directory
+
+:Ex brings up netrw
+
+:so re-sources config/lua files
+:Lazy
+:Mason
+
+:checkhealth vim.lsp
+
+
+:LspRestart
+
+Shift+k for LSP Hover
+
+
+cib - change inner block - put cursor at beginning of line and cib will remove within the parens. I am seeing some talk about b would be between {} and B would be between ()
+const res: any = await requestToken(C_ID, CSEC);
+
+=ap - something with indenting, not sure
+
+
+:lua ColorMyPencils()

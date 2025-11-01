@@ -28,8 +28,12 @@ return {
             -- I haven't experienced this yet, but I'll trust him on this one
             disable = function(lang, buf)
               if lang == "html" then
-                  print("disabled")
-                  return true
+                vim.notify(
+                  "Treesitter disabled for html files",
+                  vim.log.levels.INFO,
+                  {title = "Treesitter"}
+                )
+                return true
               end
 
               local max_filesize = 100 * 1024 -- 100 KB

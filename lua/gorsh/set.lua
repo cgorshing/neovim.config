@@ -51,14 +51,16 @@ vim.diagnostic.config({
       [severity.INFO] = " ",
     },
   },
+  -- update_in_insert = true,
+  float = {
+      focusable = false,
+      style = "minimal",
+      border = "rounded",
+      source = "always",
+      header = "",
+      prefix = "",
+  },
 })
-
-
-
-
-
-
-
 
 
 -- Will these commands become default in a build of NeoVim that isn't released yet?
